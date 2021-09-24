@@ -45,7 +45,7 @@ for link in link_list:
           time.sleep(1)
         print(link)
         print(project_name)
-        os.system('mv ~/Downloads/en.subject.pdf ' + '~/goinfre/' + project_name)
+        os.system('mv ~/Downloads/en.subject.pdf ' + '~/Downloads/' + project_name)
     except:
         pass
     time.sleep(1)
